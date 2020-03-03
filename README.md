@@ -25,7 +25,7 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 具体内容见
 
-[https://github.com/sazs34/TaskConfig/blob/master/all_in_one.md#](../all_in_one.md)多合一签到脚本
+多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
 # 京东六合一
 
