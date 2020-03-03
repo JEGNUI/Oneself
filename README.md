@@ -21,4 +21,10 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 [教程](https://nave.work/微博超话自动签到脚本.html)
 
+# all in one 签到
+
+具体内容见
+
+[https://github.com/sazs34/TaskConfig/blob/master/all_in_one.md#](../all_in_one.md)多合一签到脚本
+
 
