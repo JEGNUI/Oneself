@@ -46,6 +46,7 @@ api.rr.tv
 [task_local]
 1 0 * * * rrtv.js
 
-作者：@XYXShawn地址：https://github.com/XYXShawn/JS/tree/master
+作者：@XYXShawn
+地址：https://github.com/XYXShawn/JS/tree/master
 ```
 
