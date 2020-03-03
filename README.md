@@ -25,13 +25,11 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# 京东六合一、微信去广告
+# 京东六合一
 
 问题反馈: @NobyDa_bot
 
 京东: @NobyDa 地址：https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus
-
-微信：@Choler 地址：https://github.com/Choler/Surge/tree/master/Script
 
 如果转载, 请注明出处.
 
@@ -39,6 +37,6 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 暂时没有找到出处，请参考脚本内注释
 
-# 抖音去水印
+# 抖音去水印、微信去广告
 
 @Choler 地址：https://github.com/Choler/Surge/tree/master/Script
