@@ -58,5 +58,5 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 * You must completely remove the above from your computer or mobile phone within **24 hours** of downloading.
 
-* Anyone who views this project in any way or any script that uses the Script project directly or indirectly should read this statement carefully. And NobyDa reserves the right to change or supplement this disclaimer at any time. **Once you use and reproduce any related scripts or rules of the Script project, you are deemed to have accepted this disclaimer.**
+* Anyone who views this project in any way or any script that uses the Script project directly or indirectly should read this statement carefully. And JEGNUI reserves the right to change or supplement this disclaimer at any time. **Once you use and reproduce any related scripts or rules of the Script project, you are deemed to have accepted this disclaimer.**
 
