@@ -2,8 +2,6 @@
 
 这个库用来维护我自己收集的Quantumult X 脚本
 
----
-
 ## Disclaimer：
 
 * **Any unlocking and decryption analysis scripts involved in the Script project released by JEGNUI are only used for resource sharing and learning research. Legality, accuracy, completeness, and validity cannot be guaranteed. Please judge according to the situation itself.**
@@ -22,7 +20,7 @@
 
 ---
 
-# 轻颜相机和ulike解锁vip
+# qyxj
 
 QX: rewrite:
 
@@ -32,7 +30,7 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 作者 @songyangzz 地址： https://github.com/songyangzz/QuantumultX/tree/master/ulike
 
-# weibo超话签到
+# weibo超话
 **By [NavePnow](https://github.com/NavePnow)**
 **inspired by [Nobyda](https://t.me/nubida)**
 
@@ -41,7 +39,6 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 使用[教程](https://nave.work/微博超话自动签到脚本.html)
 
 # all in one 签到（网易云、天翼）
-
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
@@ -57,7 +54,7 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 暂时没有找到出处，请参考脚本内注释
 
-# 抖音去水印、微信去广告
+# 抖音、微信
 
 @Choler 地址：https://github.com/Choler/Surge/tree/master/Script
 
