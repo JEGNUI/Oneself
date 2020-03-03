@@ -35,11 +35,11 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 使用[教程](https://nave.work/微博超话自动签到脚本.html)
 
-# all in one 签到（网易云、天翼）
+# all in one 签到（WYY、139）
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# 京东六合一
+# JD多合一
 
 问题反馈: @NobyDa_bot
 
@@ -51,7 +51,7 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 暂时没有找到出处，请参考脚本内注释
 
-# 抖音、微信
+# DY、WX
 
 @Choler 地址：https://github.com/Choler/Surge/tree/master/Script
 
