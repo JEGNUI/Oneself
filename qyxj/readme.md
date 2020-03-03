@@ -6,4 +6,6 @@ QX: rewrite:
 
 hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
-fork:https://github.com/songyangzz/QuantumultX/tree/master/ulike
+
+作者  @songyangzz
+Fork地址： https://github.com/songyangzz/QuantumultX/tree/master/ulike
