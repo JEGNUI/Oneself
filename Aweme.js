@@ -48,3 +48,5 @@ if (typeof $response != "undefined") {
 } else {
   $done({ url: $request.url.replace(/\/v\d\//, "/v1/") });
 }
+
+// by choler
