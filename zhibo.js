@@ -1,3 +1,15 @@
+/*
+
+小米粒直播, 优乐美直播, 彩色直播,
+无聊写了个收费房解锁三合一脚本
+下载地址: 小米粒  , 优乐美  , 彩色 , 
+彩色邀请码: 9NS2W
+QX:
+^https?:\/\/(.+)\.(\w{2,3})(:?\d*)\/(api\/public\/\?service=Live\.checkLive$|public\/\/\?service=Live\.roomCharge$|lg\/video\/loadVideoFees\.do$) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/zhibo.js
+
+MITM = app101.avictown.cc, api.hlo.xyz, api.ijo.xyz, 
+
+*/
 let obj = JSON.parse($response.body);
 let url = $request.url;
 
