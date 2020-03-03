@@ -1,7 +1,21 @@
 # 芒果 TV
 
+> 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
+
+## 配置 (Surge)
+
+```properties
+[MITM]
+credits.bz.mgtv.com
+
+[Script]
+http-request ^https:\/\/credits.bz.mgtv.com\/user\/creditsTake script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js
+```
+
 ## 配置 (QuanX)
 
+```properties
 [MITM]
 credits.bz.mgtv.com
 
@@ -43,6 +57,20 @@ credits.bz.mgtv.com
    - 很正常，网络问题，哪怕你是手工签到也可能失败（凌晨签到容易拥堵就容易失败）
    - 暂时不考虑代码级的重试机制，但咱有配置级的（暴力美学）：
 
+   - `Surge`配置:
+
+     ```properties
+     # 没有什么是一顿饭解决不了的:
+     cron "10 0 0 * * *" script-path=xxx.js # 每天00:00:10执行一次
+     # 如果有，那就两顿:
+     cron "20 0 0 * * *" script-path=xxx.js # 每天00:00:20执行一次
+     # 实在不行，三顿也能接受:
+     cron "30 0 0 * * *" script-path=xxx.js # 每天00:00:30执行一次
+
+     # 再粗暴点，直接:
+     cron "* */60 * * * *" script-path=xxx.js # 每60分执行一次
+     ```
+
    - `QuanX`配置:
 
      ```properties
@@ -56,5 +84,8 @@ credits.bz.mgtv.com
 
 ## 感谢
 
-[@chavyleung](https://github.com/chavyleung/scripts)
+[@NobyDa](https://github.com/NobyDa)
 
+[@lhie1](https://github.com/lhie1)
+
+[@ConnersHua](https://github.com/ConnersHua)
