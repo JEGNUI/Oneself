@@ -1,3 +1,11 @@
+/*
+
+QX:
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body WC/rrtv/un_rrtv.js
+
+MITM = *.rr.tv
+*/
+
 var body = $response.body;
 var url = $request.url;
 
