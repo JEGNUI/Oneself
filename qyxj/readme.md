@@ -8,4 +8,4 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 
 作者  @songyangzz
-Fork地址： https://github.com/songyangzz/QuantumultX/tree/master/ulike
+地址： https://github.com/songyangzz/QuantumultX/tree/master/ulike
