@@ -1,4 +1,4 @@
-# Surge
+# QX
 Remove weibo ads
 ```
 [rewrite_local]
