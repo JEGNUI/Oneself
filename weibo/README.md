@@ -7,5 +7,3 @@ http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positiv
 [MITM]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
-
-Display netflix ratings（IMDb、douaban）
