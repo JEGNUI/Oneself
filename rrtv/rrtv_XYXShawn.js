@@ -12,3 +12,6 @@ if (url.indexOf('/ad/getAll') != -1) {
 }
 body = JSON.stringify(obj);
 $done({body});
+
+
+//XYXShawn
