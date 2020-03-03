@@ -31,9 +31,9 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 问题反馈: @NobyDa_bot
 
-京东: @NobyDa
+京东: @NobyDa 地址：https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus
 
-知乎：@Choler
+微信：@Choler 地址：https://github.com/Choler/Surge/tree/master/Script
 
 如果转载, 请注明出处.
 
