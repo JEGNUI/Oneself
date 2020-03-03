@@ -40,8 +40,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 api.rr.tv
 
 [rewrite_local]
-# 190及以后版本
-^https?:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) url script-response-body rrtv.js
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body rrtv.js
 
 [task_local]
 1 0 * * * rrtv.js
