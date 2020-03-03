@@ -27,7 +27,7 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# 京东六合一   知乎去广告
+# 京东六合一、微信去广告
 
 问题反馈: @NobyDa_bot
 
