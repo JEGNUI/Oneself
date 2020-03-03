@@ -41,4 +41,4 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 # 抖音去水印
 
-@Choler地址https://github.com/Choler/Surge/tree/master/Script
+@Choler 地址：https://github.com/Choler/Surge/tree/master/Script
