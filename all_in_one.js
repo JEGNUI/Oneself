@@ -2,16 +2,16 @@ const global = {
     log: 1, //日志模式:0不显示 1全部显示 2精简显示,推荐值:1
     parallel: true, //是否顺序签到(true则同时签到,可能会出现内存占用过高导致执行失败的情况;false则签到速度会慢一些,但是很稳)
     sign: { //用于设置哪些需要进行签到,哪些不处理
-        baidu_tieba: true,
-        iqiyi: true,
-        _52pojie: true,
+        baidu_tieba: false,
+        iqiyi: false,
+        _52pojie: false,
         netease_music: true,
-        v2ex: true,
+        v2ex: false,
         china_telecom: true,
-        eleme: true
+        eleme: false
     },
     data: {
-        china_telecom: "" //此处输入要签到的手机号码,半角双引号中间
+        china_telecom: "19128023112" //此处输入要签到的手机号码,半角双引号中间
     }
 }
 
