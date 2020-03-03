@@ -1,5 +1,5 @@
 /*
-bilibili fan drama open 1080P+
+bilibili fan drama open 1080P+ 画质
 
 QX:
 ^https?:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurl url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
