@@ -18,11 +18,10 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 <img src="https://cdn.jsdelivr.net/gh/NavePnow/blog_photo@private/IMG_1189.JPG" height="40%" width="40%">
 
-[教程](https://nave.work/微博超话自动签到脚本.html)
+使用[教程](https://nave.work/微博超话自动签到脚本.html)
 
 # all in one 签到（我只使用了网易云、天翼）
 
-具体内容见
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
