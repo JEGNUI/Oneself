@@ -33,7 +33,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 1 0 * * * rrtv.js
 ```
 
-## unclock配置 (解锁原画除了勋章电影)
+## unclock配置 (解锁原画)
 
 ```properties
 [MITM]
