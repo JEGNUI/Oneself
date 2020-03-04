@@ -1,9 +1,7 @@
-# 什么值得买
+# 什么值得买[@chavyleung](https://github.com/chavyleung/scripts/tree/master/smzdm)
 
 > 2020.1.11 QuanX 在`190`版本开始, 获取 Cookie 方式需要从`script-response-body`改为`script-request-header`
 
- ## 感谢[@chavyleung](https://github.com/chavyleung/scripts/tree/master/smzdm)
- 
 # 注意！注意！注意！
 
 目前不完美:
