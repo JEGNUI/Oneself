@@ -19,11 +19,18 @@
 
 # qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
-QX: rewrite:
+## 配置 (QuanX)
 
+```properties
+[MITM]
+commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
+
+[rewrite_local]
 ^https://commerce-.*api.faceu.mobi/commerce/v1/subscription/user_info url script-response-body nzw9314/Script/qyxj.js
 
-hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
+[task_local]
+1 0 * * * mgtv.js
+```
 
 # all in one 签到
 
