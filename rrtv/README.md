@@ -1,12 +1,10 @@
-# 人人视频
+# 人人视频签到 [@chavyleung](https://github.com/chavyleung/scripts/edit/master/rrtv)
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
 > 2020.1.11 QuanX 在`190`版本开始, 获取 Cookie 方式需要从`script-response-body`改为`script-request-header`
 
 > 2020.1.31 增加自动领取每日福利 (无需重新获取 Cookie, 直接更新脚本即可!)
-
-## 感谢[chavyleung](https://github.com/chavyleung/scripts/edit/master/rrtv)
 
 ## 配置 (Surge)
 
@@ -35,7 +33,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 1 0 * * * rrtv.js
 ```
 
-## unclock配置 (解锁原画)
+## unclock配置 (解锁原画) [@XYXShawn](https://github.com/XYXShawn/JS/tree/master)
 
 ```properties
 [MITM]
@@ -47,5 +45,3 @@ api.rr.tv
 [task_local]
 1 0 * * * rrtv.js
 ```
-
-感谢[XYXShawn](https://github.com/XYXShawn/JS/tree/master)
