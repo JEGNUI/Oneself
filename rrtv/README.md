@@ -6,7 +6,7 @@
 
 > 2020.1.31 增加自动领取每日福利 (无需重新获取 Cookie, 直接更新脚本即可!)
 
-感谢[chavyleung](https://github.com/chavyleung/scripts/edit/master/rrtv)
+## 感谢[chavyleung](https://github.com/chavyleung/scripts/edit/master/rrtv)
 
 ## 配置 (Surge)
 
