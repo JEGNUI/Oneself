@@ -1,13 +1,22 @@
 /******* config ***********/
 
-var stopID    = 40288dee5b9f5ecf015c1b06bc4a0cd2; // 物业公司id
-var stopName  = "物业公司";
-var lineID    = "40288dee5b476aa5015b55a603cd0162";
-var busName   = "42（进坡头）";
+var stopID    = 10003177; // 独墅湖图书馆id
+var siteid    =40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
+
+var stopName  = "独墅湖图书馆";
+var stationname="物业公司"
+
+var lineID    = "10000522";
+var params    = "%7Bscontent%3A'40288dee5b476aa5015b55a603cd0162'%2CcompanyNo%3A'171020091821002'%7D%7D"
+
+var busName   = "110(南线)";
+var roadname   = "42（进坡头）";
+
+var url       = "http://app.2500.tv/bus/api_line_status.php";
 var url       = "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
+
 var result    = "未知";
 var current   = 200;
-
 /******* UI ***********/
 
 
