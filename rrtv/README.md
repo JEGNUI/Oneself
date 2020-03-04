@@ -6,6 +6,8 @@
 
 > 2020.1.31 增加自动领取每日福利 (无需重新获取 Cookie, 直接更新脚本即可!)
 
+感谢[chavyleung](https://github.com/chavyleung/scripts/edit/master/rrtv)
+
 ## 配置 (Surge)
 
 ```properties
@@ -31,9 +33,6 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 
 [task_local]
 1 0 * * * rrtv.js
-
-感谢[chavyleung](https://github.com/chavyleung/scripts/edit/master/rrtv)
-
 ```
 
 ## unclock配置 (解锁原画)
@@ -47,8 +46,6 @@ api.rr.tv
 
 [task_local]
 1 0 * * * rrtv.js
-
-作者：@XYXShawn
-地址：https://github.com/XYXShawn/JS/tree/master
 ```
 
+感谢[XYXShawn](https://github.com/XYXShawn/JS/tree/master)
