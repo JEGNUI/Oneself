@@ -29,8 +29,9 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# JD多合一 & iQIYI [@NobyDa](https://github.com/JEGNUI/Script/tree/master)
+# JD多合一 & iQIYI 
 
+[@NobyDa](https://github.com/JEGNUI/Script/tree/master) [QX](https://github.com/JEGNUI/Script/tree/master/QuantumultX/File)[Surge](https://github.com/JEGNUI/Script/tree/master/Surge/JS)
 # ZhiHu_all
 
 暂时没有找到出处，请参考脚本内注释
