@@ -25,7 +25,7 @@ QX: rewrite:
 
 hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
-作者 @songyangzz 地址： https://github.com/songyangzz/QuantumultX/tree/master/ulike
+作者[songyangzz](https://github.com/songyangzz/QuantumultX/tree/master/ulike)
 
 # weibo超话
 **By [NavePnow](https://github.com/NavePnow)**
@@ -43,7 +43,7 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 问题反馈: @NobyDa_bot
 
-京东: @NobyDa 地址：https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus
+作者:[NobyDa](https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus)
 
 如果转载, 请注明出处.
 
@@ -52,6 +52,5 @@ hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 暂时没有找到出处，请参考脚本内注释
 
 # DY、WX
-
-@Choler 地址：https://github.com/Choler/Surge/tree/master/Script
+作者[Choler](https://github.com/Choler/Surge/tree/master/Script)
 
