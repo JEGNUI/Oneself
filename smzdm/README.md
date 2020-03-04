@@ -26,3 +26,4 @@
 [task_local]
 1 0 * * * smzdm.js
 ```
+# 去广告 [@primovist](https://github.com/primovist/ScriptsForSurge/tree/master/Scripts)
