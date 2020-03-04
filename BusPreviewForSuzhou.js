@@ -1,12 +1,12 @@
 /******* config ***********/
 
-var siteid = 40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
-var stationname = "物业公司"
-var params = "%7Bscontent%3A'40288dee5b476aa5015b55a603cd0162'%2CcompanyNo%3A'171020091821002'%7D%7D"
-var roadname = "42（进坡头）";
-var url = "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
-var result = "未知";
-var current = 200;
+var siteid             = 40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
+var stationname  = "物业公司"
+var roadid           = "40288dee5b476aa5015b55a603cd0162"
+var roadname     = "42（进坡头）";
+var url                 =     "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
+var result             =     "未知";
+var current           =   200;
 /******* UI ***********/
 
 
@@ -83,7 +83,7 @@ $ui.render({
 $http.post({
   url: url,
   form: {
-    params: params
+    roadid: roadid
   },
   handler: function (resp) {
     handleBusResponse(resp);
