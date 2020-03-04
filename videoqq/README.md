@@ -1,4 +1,4 @@
-# 腾讯视频
+# 腾讯视频[@chavyleung](https://github.com/chavyleung/scripts/tree/master/smzdm)
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
@@ -7,18 +7,6 @@
 > 2020.2.17 增加移动端网页版签到 (请仔细阅读移动端网页版的操作说明) (MITM 新增一条、获取 Cookie 脚本新增一条、两脚本需要更新)
 
 > 2020.3.2 \[Beta\] 增加移动端抽奖脚本 (部分用户移动端签到时会提示: 无匹配的签到活动, 那就是移动端签不上了)
-
-## 配置 (Surge)
-
-```properties
-[MITM]
-*.video.qq.com, v.qq.com
-
-[Script]
-http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
-http-request ^https?:\/\/v.qq.com\/x\/bu\/mobile_checkin script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
-```
 
 ## 配置 (QuanX)
 
@@ -57,55 +45,3 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 3. 手机浏览器访问下: http://v.qq.com/x/bu/mobile_checkin 页面提示提示`签到成功`, 系统提示: `获取Cookie: 成功` （为保成功率，请刷新一下页面再获取一次）
 4. 运行下签到脚本看是否提示
 5. 最后就可以把第 1 条脚本注释掉了
-
-## 常见问题
-
-1. 无法写入 Cookie
-
-   - 检查 Surge 系统通知权限放开了没
-   - 如果你用的是 Safari, 请尝试在浏览地址栏`手动输入网址`(不要用复制粘贴)
-
-2. 写入 Cookie 成功, 但签到不成功
-
-   - 看看是不是在登录前就写入 Cookie 了
-   - 如果是，请确保在登录成功后，再尝试写入 Cookie
-
-3. 为什么有时成功有时失败
-
-   - 很正常，网络问题，哪怕你是手工签到也可能失败（凌晨签到容易拥堵就容易失败）
-   - 暂时不考虑代码级的重试机制，但咱有配置级的（暴力美学）：
-
-   - `Surge`配置:
-
-     ```properties
-     # 没有什么是一顿饭解决不了的:
-     cron "10 0 0 * * *" script-path=xxx.js # 每天00:00:10执行一次
-     # 如果有，那就两顿:
-     cron "20 0 0 * * *" script-path=xxx.js # 每天00:00:20执行一次
-     # 实在不行，三顿也能接受:
-     cron "30 0 0 * * *" script-path=xxx.js # 每天00:00:30执行一次
-
-     # 再粗暴点，直接:
-     cron "* */60 * * * *" script-path=xxx.js # 每60分执行一次
-     ```
-
-   - `QuanX`配置:
-
-     ```properties
-     [task_local]
-     1 0 * * * xxx.js # 每天00:01执行一次
-     2 0 * * * xxx.js # 每天00:02执行一次
-     3 0 * * * xxx.js # 每天00:03执行一次
-
-     */60 * * * * xxx.js # 每60分执行一次
-     ```
-
-## 感谢
-
-[@NobyDa](https://github.com/NobyDa)
-
-[@lhie1](https://github.com/lhie1)
-
-[@ConnersHua](https://github.com/ConnersHua)
-
-[@Liquor030](https://github.com/Liquor030)
