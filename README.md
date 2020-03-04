@@ -17,7 +17,7 @@
 
 ---
 
-# qyxj
+# qyxj [songyangzz](https://github.com/songyangzz/QuantumultX/tree/master/ulike)
 
 QX: rewrite:
 
@@ -25,32 +25,16 @@ QX: rewrite:
 
 hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
-作者：[songyangzz](https://github.com/songyangzz/QuantumultX/tree/master/ulike)
-
-# weibo超话
-**By [NavePnow](https://github.com/NavePnow)**
-**inspired by [Nobyda](https://t.me/nubida)**
-
-<img src="https://cdn.jsdelivr.net/gh/NavePnow/blog_photo@private/IMG_1189.JPG" height="40%" width="40%">
-
-使用[教程](https://nave.work/微博超话自动签到脚本.html)
-
 # all in one 签到（WYY、139）
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# JD多合一 iQIYI
-
-问题反馈: @NobyDa_bot
-
-作者:[NobyDa](https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus)
-
-如果转载, 请注明出处.
+# JD多合一 iQIYI [NobyDa](https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus)
 
 # ZhiHu_all
 
 暂时没有找到出处，请参考脚本内注释
 
-# DY、WX
-作者：[Choler](https://github.com/Choler/Surge/tree/master/Script)
+# DY、WX [Choler](https://github.com/Choler/Surge/tree/master/Script)
+
 
