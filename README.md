@@ -19,7 +19,7 @@
 
 # qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
-## 配置(qyxj)
+## qyxj
 
 ```properties
 [MITM]
