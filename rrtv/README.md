@@ -31,6 +31,9 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 
 [task_local]
 1 0 * * * rrtv.js
+
+地址：https://github.com/JEGNUI/scripts/tree/master/rrtv
+
 ```
 
 ## unclock配置 (解锁原画)
