@@ -2,6 +2,10 @@
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
+ ## 感谢
+ 
+[@chavyleung](https://github.com/chavyleung/scripts/tree/master/qunar)
+
 ## 配置 (Surge)
 
 ```properties
@@ -86,6 +90,4 @@ user.qunar.com
      */60 * * * * xxx.js # 每60分执行一次
      ```
      
- ## 感谢
- 
-[@chavyleung](https://github.com/chavyleung/scripts/tree/master/qunar)
+
