@@ -1,22 +1,12 @@
 /******* config ***********/
 
-var stopID    = 10003177; // 独墅湖图书馆id
-var siteid    =40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
-
-var stopName  = "独墅湖图书馆";
-var stationname="物业公司"
-
-var lineID    = "10000522";
-var params    = "%7Bscontent%3A'40288dee5b476aa5015b55a603cd0162'%2CcompanyNo%3A'171020091821002'%7D%7D"
-
-var busName   = "110(南线)";
-var roadname   = "42（进坡头）";
-
-var url       = "http://app.2500.tv/bus/api_line_status.php";
-var url       = "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
-
-var result    = "未知";
-var current   = 200;
+var siteid = 40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
+var stationname = "物业公司"
+var params = "%7Bscontent%3A'40288dee5b476aa5015b55a603cd0162'%2CcompanyNo%3A'171020091821002'%7D%7D"
+var roadname = "42（进坡头）";
+var url = "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
+var result = "未知";
+var current = 200;
 /******* UI ***********/
 
 
@@ -28,7 +18,7 @@ var templateCell = {
   views: [{
     type: "label",
     props: {
-      id: "stopNameLabel",
+      id: "stationnameLabel",
       align: $align.center,
       font: $font(20)
     },
@@ -93,7 +83,7 @@ $ui.render({
 $http.post({
   url: url,
   form: {
-    lineID: lineID
+    params: params
   },
   handler: function (resp) {
     handleBusResponse(resp);
@@ -109,15 +99,15 @@ function handleBusResponse(resp) {
   if (resp.data.status == 1) {
     for (var i in data) {
       var busStop = data[i];
-      if (busStop.ID == stopID) { // 遍历到目的站点
+      if (busStop.ID == siteid) { // 遍历到目的站点
 
         if (current == 200) {
-          result = "在" + stopName + "之前没有" + busName + "运行";
+          result = "在" + stationname + "之前没有" + roadname + "运行";
         } else if (busStop.BusInfo.length == 0) {
-          result = i - current == 0 ? busName + "刚刚到达" + stopName : busName + "还有" + (i - current) + "站路到达" + stopName
+          result = i - current == 0 ? roadname + "刚刚到达" + stationname : roadname + "还有" + (i - current) + "站路到达" + stationname
         } else {
           var next = "\n下一班还有" + (i - current) + "站路到达"
-          result = busStop.BusInfo + "于" + busStop.InTime + "到达" + stopName + next;
+          result = busStop.BusInfo + "于" + busStop.InTime + "到达" + stationname + next;
         }
         busArray.push(busStop);
         break;
@@ -142,7 +132,7 @@ function handleBusResponse(resp) {
       var busStop = busArray[i];
       var j       = i + 1.0;
       var obj     = {
-          stopNameLabel: {
+          stationnameLabel: {
           text: (parseInt(i)+1) + busStop.StationCName
         },
           busNoLabel:{
