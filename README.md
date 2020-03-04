@@ -19,7 +19,7 @@
 
 # qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
-## 配置
+## 配置(qyxj)
 
 ```properties
 [MITM]
@@ -46,4 +46,4 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 暂时没有找到出处，请参考脚本内注释
 
-# DY & WX  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
+# DouYin & Wechat  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
