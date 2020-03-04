@@ -1,4 +1,4 @@
-# weibo超话   @[NavePnow](https://github.com/NavePnow/Profiles/master/Scripts/weibo)
+# weibo超话   @[NavePnow](https://github.com/NavePnow/Profiles/tree/master/Scripts/weibo)
 **By [NavePnow](https://github.com/NavePnow)**
 **inspired by [Nobyda](https://t.me/nubida)**
 
