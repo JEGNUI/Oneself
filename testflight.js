@@ -131,13 +131,13 @@ if (isSurge) {
  */
 
 const title = 'testfilght';
-const url = "https://testflight.apple.com/join/wArXdacJ";
+const url = "https://testflight.apple.com/join/";
 
 /**
  * 填入要监测的appkey。从testfligt地址获取。
  * 例如"VCIvwk2g,wArXdacJ,2vnRvOTX,LzjySbQx,IdFRwmNy,qDkBu2ur,4Qt2lIm5,ZzqOu8tX,ftCqFe6D,fy7LvHVA,QKqitFwc"
 */
-const appkey = "VCIvwk2g,LzjySbQx";
+const appkey = "qDkBu2ur";
 
 //是否在没有tf位置的时候仍然弹出通知，默认不弹出,防止过多无用通知。
 var isNOtify = ture;
