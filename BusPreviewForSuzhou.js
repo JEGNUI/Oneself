@@ -1,15 +1,13 @@
 /******* config ***********/
 
-var siteid             = 40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
-var stationname  = "物业公司"
-var roadid           = "40288dee5b476aa5015b55a603cd0162"
-var roadname     = "42（进坡头）";
-var url                 =     "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
-var result             =     "未知";
-var current           =   200;
+var siteid = 40288dee5b9f5ecf015c1b06bc4a0cd2;// 物业公司id
+var stationname = "物业公司"
+var roadid = "40288dee5b476aa5015b55a603cd0162"
+var roadname = "42（进坡头）";
+var url = "http://wx.zhjgongjiao.com/mobile/member/getBusStateByRoadid.koala";
+var result = "未知";
+var current = 200;
 /******* UI ***********/
-
-
 
 var templateCell = {
   props: {
@@ -103,17 +101,17 @@ function handleBusResponse(resp) {
 
         if (current == 200) {
           result = "在" + stationname + "之前没有" + roadname + "运行";
-        } else if (busStop.BusInfo.length == 0) {
+        } else if (busStop.busplate.length == 0) {
           result = i - current == 0 ? roadname + "刚刚到达" + stationname : roadname + "还有" + (i - current) + "站路到达" + stationname
         } else {
           var next = "\n下一班还有" + (i - current) + "站路到达"
-          result = busStop.BusInfo + "于" + busStop.InTime + "到达" + stationname + next;
+          result = busStop.busplate + "于" + busStop.InTime + "到达" + stationname + next;
         }
         busArray.push(busStop);
         break;
       } else {// 未遍历到目的站点
 
-        if (busStop.BusInfo.length > 0) { // 有车
+        if (busStop.busplate.length > 0) { // 有车
           current   = i;
           busArray  = [];
           busArray  = [busStop];
@@ -136,7 +134,7 @@ function handleBusResponse(resp) {
           text: (parseInt(i)+1) + busStop.StationCName
         },
           busNoLabel:{
-          text: busStop.BusInfo.length > 0 ? busStop.BusInfo + " " + busStop.InTime : ""
+          text: busStop.busplate.length > 0 ? busStop.busplate + " " + busStop.InTime : ""
         }
       }
       dataArray.push(obj);
