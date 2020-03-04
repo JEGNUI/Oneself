@@ -17,7 +17,7 @@
 
 ---
 
-# qyxj & estflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
+# qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
 QX: rewrite:
 
@@ -25,11 +25,11 @@ QX: rewrite:
 
 hostname:commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
-# all in one 签到（WYY、139）
+# all in one 签到
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# JD多合一 iQIYI [@NobyDa](https://github.com/JEGNUI/Script/tree/master/JD-DailyBonus)
+# JD多合一 & iQIYI [@NobyDa](https://github.com/JEGNUI/Script/tree/master)
 
 # ZhiHu_all
 
