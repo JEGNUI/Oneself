@@ -58,6 +58,10 @@ note.youdao.com
 https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body WC/ydybj.js
 
 ```
-DingDing clock in[@yichahucha](https://github.com/yichahucha/surge/tree/master)
+D-Ding [@yichahucha](https://github.com/yichahucha/surge/tree/master)
+
+这是test 脚本
+
+每日打卡提醒（corn "0 9,18 * * 1-5" 周一到周五，早九晚六）+ 每日壹句（有道词典）+ 跳转钉钉打卡页面（下拉通知点击链接）
 
 
