@@ -47,3 +47,6 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 暂时没有找到出处，请参考脚本内注释
 
 # DouYin & Wechat  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
+
+# 有道云  [@Alex0510](https://github.com/Alex0510/surge/tree/master/Script)
+
