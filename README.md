@@ -57,8 +57,6 @@ note.youdao.com
 [rewrite_local]
 https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body WC/ydybj.js
 
-[task_local]
-1 0 * * * mgtv.js
 ```
 
 
