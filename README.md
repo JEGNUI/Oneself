@@ -36,11 +36,11 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
 
-# JD多合一 [@NobyDa](https://github.com/JEGNUI/Script/tree/master)
+# JD多合一 [@NobyDa](https://github.com/NobyDa/Script/tree/master/JD-DailyBonus)
 
-[QX](https://github.com/JEGNUI/Script/tree/master/QuantumultX/File)
+[QX](https://github.com/NobyDa/Script/tree/master/QuantumultX)
 
-[Surge](https://github.com/JEGNUI/Script/tree/master/Surge/JS)
+[Surge](https://github.com/NobyDa/Script/tree/master/Surge)
 
 # ZhiHu_all
 
