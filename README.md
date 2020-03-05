@@ -26,7 +26,7 @@
 commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 [rewrite_local]
-^https://commerce-.*api.faceu.mobi/commerce/v1/subscription/user_info url script-response-body nzw9314/Script/qyxj.js
+^https://commerce-.*api.faceu.mobi/commerce/v1/subscription/user_info url script-response-body WC/qyxj.js
 
 [task_local]
 1 0 * * * mgtv.js
@@ -49,4 +49,16 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 # DouYin & Wechat  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
 
 # 有道云  [@Alex0510](https://github.com/Alex0510/surge/tree/master/Script)
+
+```properties
+[MITM]
+note.youdao.com
+
+[rewrite_local]
+https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body WC/ydybj.js
+
+[task_local]
+1 0 * * * mgtv.js
+```
+
 
