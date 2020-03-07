@@ -19,7 +19,7 @@
 ```
 # ad[@primovist](https://github.com/primovist/ScriptsForSurge/tree/master/Scripts)
 
-
+```properties
 [MITM]
 *.smzdm.com
 
