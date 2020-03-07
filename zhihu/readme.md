@@ -15,3 +15,4 @@
 ^https://api.zhihu.com/market/header url script-response-body Zhihu/ad-market.js
 
 ```
+Zhihu  ad.js[@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
