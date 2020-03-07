@@ -18,3 +18,13 @@
 
 ```
 # Zhihu  ad.js[@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
+
+```properties
+[MITM]
+*.zhihu.com
+
+[Script]
+
+^https://api.zhihu.com/moments\?(action|feed_type) url script-response-body Zhihu/ad.js
+
+```
