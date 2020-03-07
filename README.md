@@ -44,6 +44,13 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 # XXYS [@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
 
+```properties
+[rewrite_local]
+https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body xxys.js
+
+MITM = *.*apps.com, *.xiao*.com
+
+```
 # DouYin & Wechat  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
 
 # 有道云  [@Alex0510](https://github.com/Alex0510/surge/tree/master/Script)
