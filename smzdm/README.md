@@ -18,3 +18,12 @@
 1 0 * * * smzdm.js
 ```
 # ad[@primovist](https://github.com/primovist/ScriptsForSurge/tree/master/Scripts)
+
+
+[MITM]
+*.smzdm.com
+
+[rewrite_local]
+^https?:\/\/(h(aojia|omepage)|(articl|baik)e|s)-api\.smzdm\.com\/(home|sou)  ad.js
+
+```
