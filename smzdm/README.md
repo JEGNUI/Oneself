@@ -17,7 +17,7 @@
 [task_local]
 1 0 * * * smzdm.js
 ```
-# AD[@primovist](https://github.com//ScriptsForSurge/tree/master/Scripts)
+# AD[@primovist](https://github.com/primovist/ScriptsForSurge/tree/master/Scripts)
 
 ## 配置
 
