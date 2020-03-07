@@ -42,7 +42,7 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 [Surge](https://github.com/NobyDa/Script/tree/master/Surge)
 
-# XXYS [@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
+# XXYS  Zhihu [@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
 
 ```properties
 [rewrite_local]
