@@ -17,4 +17,4 @@
 [task_local]
 1 0 * * * smzdm.js
 ```
-
+# ad[@primovist](https://github.com/primovist/ScriptsForSurge/tree/master/Scripts)
