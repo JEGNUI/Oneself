@@ -42,9 +42,7 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 [Surge](https://github.com/NobyDa/Script/tree/master/Surge)
 
-# ZhiHu_all
-
-暂时没有找到出处，请参考脚本内注释
+# ZhiHu_all[primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
 
 # DouYin & Wechat  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
 
