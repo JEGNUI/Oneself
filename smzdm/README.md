@@ -17,19 +17,4 @@
 [task_local]
 1 0 * * * smzdm.js
 ```
-# AD[@primovist](https://github.com/primovist/ScriptsForSurge/tree/master/Scripts)
-
-## 配置
-
-```properties
-[MITM]
-*.smzdm.com
-
-[rewrite_local]
-
-^https?:\/\/(h(aojia|omepage)|(articl|baik)e|s)-api\.smzdm\.com\/(home|sou) url script-request-header smzdm/ad.js
-
-```
-
-
 
