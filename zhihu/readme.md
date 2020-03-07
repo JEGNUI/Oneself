@@ -1,4 +1,4 @@
-## 配置 (Qx)
+## 配置[@onewayticket255](https://github.com/onewayticket255/Surge-Script)
 
 ```properties
 [MITM]
