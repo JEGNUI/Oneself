@@ -12,7 +12,9 @@
 
 ^https://api.zhihu.com/.*/questions url script-response-body Zhihu/ad-answer.js
 
+^https://api.zhihu.com/.*/questions url script-response-body Zhihu/ad-answer.js（new）
+
 ^https://api.zhihu.com/market/header url script-response-body Zhihu/ad-market.js
 
 ```
-Zhihu  ad.js[@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
+# Zhihu  ad.js[@primovist](https://github.com/primovist/ScriptsForSurge/blob/master/Scripts)
