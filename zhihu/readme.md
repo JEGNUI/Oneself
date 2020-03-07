@@ -28,3 +28,14 @@
 ^https://api.zhihu.com/moments\?(action|feed_type) url script-response-body Zhihu/ad.js
 
 ```
+# all
+```properties
+[MITM]
+api.zhihu.com
+
+[Script]
+^https:\/\/api\.zhihu\.com\/answers\/.*\/comments\/featured-comment url reject-img
+^https:\/\/api\.zhihu\.com\/appview\/api\/v4\/answers\/.*\/recommendations url reject-img
+^https:\/\/api\.zhihu\.com\/(moments\?(action|feed_type)|topstory\/recommend|v\d\/questions|market\/header|people\/) url script-response-body zhuhu/all.js
+
+```
