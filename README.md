@@ -46,9 +46,9 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 ```properties
 [rewrite_local]
-https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body xxys.js
+https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body WC/xxys.js
 
-MITM = *.*apps.com, *.xiao*.com
+MITM = *.xiao*.com
 
 ```
 # DouYin & Wechat  [@Choler](https://github.com/Choler/Surge/tree/master/Script)
