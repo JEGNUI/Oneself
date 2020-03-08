@@ -32,9 +32,9 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 1 0 * * * mgtv.js
 ```
 
-# all in one 签到
+# all in one 签到[@sazs34](https://github.com/sazs34/TaskConfig/blob/master/all_in_one.md)
 
-多合一签到脚本[@sazs34](https://github.com/sazs34/TaskConfig/blob/master/all_in_one.md)
+多合一签到脚本
 
 # JD多合一 [@NobyDa](https://github.com/NobyDa/Script/tree/master/JD-DailyBonus)
 
