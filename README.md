@@ -34,7 +34,7 @@ commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi
 
 # all in one 签到
 
-多合一签到脚本https://github.com/JEGNUI/TaskConfig/blob/master/all_in_one.md
+多合一签到脚本[@sazs34](https://github.com/sazs34/TaskConfig/blob/master/all_in_one.md)
 
 # JD多合一 [@NobyDa](https://github.com/NobyDa/Script/tree/master/JD-DailyBonus)
 
