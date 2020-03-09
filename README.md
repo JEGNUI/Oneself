@@ -19,6 +19,14 @@
 
 # 脚本自动更新 [@yichahucha](https://github.com/yichahucha/surge/tree/master)
 
+## 微博AD
+```properties
+[rewrite_local]
+^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body wb_launch.js
+^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status) url script-response-body wb_ad.js
+[mitm]
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
+```
 # qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
 ## qyxj
