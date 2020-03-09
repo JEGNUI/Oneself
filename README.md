@@ -17,6 +17,8 @@
 
 ---
 
+# 脚本自动更新 [@yichahucha](https://github.com/yichahucha/surge/tree/master)
+
 # qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
 ## qyxj
