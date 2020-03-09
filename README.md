@@ -17,7 +17,7 @@
 
 ---
 
-# 脚本自动更新 [@yichahucha](https://github.com/yichahucha/surge/tree/master)
+# 脚本自动更新&Lenovo打卡  [@yichahucha](https://github.com/yichahucha/surge/tree/master)
 
 ## 微博AD
 ```properties
@@ -73,7 +73,3 @@ note.youdao.com
 https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body WC/ydybj.js
 
 ```
- # Lenovo（钉钉打卡修改 [@yichahucha](https://github.com/yichahucha/surge/tree/master)）
-
-这是test 脚本
-
