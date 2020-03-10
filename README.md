@@ -27,7 +27,7 @@
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
-# qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
+# elm & qyxj & testflight [@songyangzz](https://github.com/songyangzz/QuantumultX/tree/master)
 
 ## qyxj
 
