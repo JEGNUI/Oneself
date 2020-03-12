@@ -1,4 +1,4 @@
-# 活动抽奖 [zZPiglet](https://github.com/zZPiglet/Task/tree/master/WeChatLottery)
+# 活动抽奖 [@zZPiglet](https://github.com/zZPiglet/Task/tree/master/WeChatLottery)
 
 微信小程序"活动抽奖"自动签到，支持 Quantumult X（理论上也支持 Surge，未尝试）。
 
