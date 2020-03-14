@@ -1,6 +1,6 @@
 # WPS
 
-> 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
+> 代码已同时兼容 Surge & QuanX
 
 ## 配置 (Surge)
 
