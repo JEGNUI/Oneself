@@ -17,6 +17,4 @@ Remove weibo ads
 [mitm]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 
-[MITM]
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 ```
