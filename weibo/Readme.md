@@ -11,9 +11,11 @@
 Remove weibo ads
 ```properties
 [Script]
-^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|\!/photos/pic_recommend_status) url script-response-body WC/weibo/wb_ad.js
-
+[rewrite_local]
 ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body WC/weibo/wb_launch.js
+^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status) url script-response-body WC/weibo/wb_ad.js
+[mitm]
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 
 [MITM]
 hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
