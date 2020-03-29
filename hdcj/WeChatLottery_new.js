@@ -20,7 +20,7 @@ Author: zZPiglet
 ----------
 更新日志：
 - 2020/03/28：
-更新接口 v1 -> v2，若有问题请先自行回滚并提交日志 / 抓包至 issue。
+更新接口 v1 -> v2，注意更改 rewrite，若有问题请先自行回滚并提交日志 / 抓包至 issue。 若 token 未失效可不更新。
 修改部分细节。
 
 - 2020/03/26：
@@ -532,10 +532,12 @@ function notify() {
                     detail += '花费 20 币兑换获得 ' + datainfo.exchange.data.money + ' 元，'
                 } else if (datainfo.exchange.message.code == 1) {
                     subTitle += '兑换重复 '
+                } else if (datainfo.exchange.message.error == 'token missing' || datainfo.exchange.message.error == 'token expired') {
+
                 } else {
                     $cmp.log("wclexchange failed response: \n" + JSON.stringify(datainfo.checkin))
                     subTitle += '兑换失败 '
-                    em += '\n兑换失败：' + datainfo.checkin.message.error + '，详情请看日志。'
+                    em += '\n兑换失败：' + datainfo.exchange.message.error + '，详情请看日志。'
                 }
             }
             if (datainfo.winCnt > 0) {
