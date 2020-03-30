@@ -14,9 +14,15 @@
 5. 本人对任何脚本引发的问题概不负责，包括但不限于由脚本错误引起的任何损失和损害。
 6. 如果任何单位或个人认为此脚本可能涉嫌侵犯其权利，应及时通知并提供身份证明，所有权证明，我们将在收到认证文件确认后删除此脚本。
 7. 所有直接或间接使用、查看此脚本的人均应该仔细阅读此声明。本人保留随时更改或补充此声明的权利。一旦您使用或复制了此脚本，即视为您已接受次免责声明。
+
+Author: zZPiglet
+
 ----------
 更新日志：
--2020/03/23：
+- 2020/03/30：
+更新接口，修改注释，使用注意修改 rewrite。不作后续更新。
+
+- 2020/03/23：
 新增自动参与首页抽奖、进行参与 3 个首页抽奖后的随即兑换、领取参与 5 个首页抽奖后的每日任务奖励。
 ---------
 
@@ -27,19 +33,19 @@
 
 Quantumult X (TestFlight 190+, App Store 1.0.5+):
 [task_local]
-1 0 * * * WeChatLottery_maybesafe.js.js
+1 0 * * * WeChatLottery_maybesafe.js
 or remote
-1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js.js
+1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js
 
 [rewrite_local]
-^https:\/\/api-hdcj\.9w9\.com\/v1\/sign url script-request-header WeChatLottery_maybesafe.js.js
+^https:\/\/api-hdcj\.9w9\.com\/v2\/sign url script-request-header WeChatLottery_maybesafe.js
 or remote
-^https:\/\/api-hdcj\.9w9\.com\/v1\/sign url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js.js
+^https:\/\/api-hdcj\.9w9\.com\/v2\/sign url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js
 
 Surge 4.0+:
 [Script]
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js.js
-http-request ^https:\/\/api-hdcj\.9w9\.com\/v1\/sign script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js.js
+cron "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js
+http-request ^https:\/\/api-hdcj\.9w9\.com\/v2\/sign script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_maybesafe.js
 
 
 All app:
@@ -50,13 +56,13 @@ hostname = api-hdcj.9w9.com
 */
 
 
-const CheckinURL = 'https://api-hdcj.9w9.com/v1/sign/sign'
-const CheckindataURL = 'https://api-hdcj.9w9.com/v1/sign'
-const DataURL = 'https://api-hdcj.9w9.com/v1/informations'
-const IndexURL = 'https://api-hdcj.9w9.com/v1/index?type=0&gzh_number='
-const JoinURL = 'https://api-hdcj.9w9.com/v1/lotteries/'
-const ExchangeURL = 'https://api-hdcj.9w9.com/v1/limit_red_envelopes/453'
-const DailyURL = 'https://api-hdcj.9w9.com/v1/tasks/80'
+const CheckinURL = 'https://api-hdcj.9w9.com/v2/sign/sign'
+const CheckindataURL = 'https://api-hdcj.9w9.com/v2/sign'
+const DataURL = 'https://api-hdcj.9w9.com/v2/informations'
+const IndexURL = 'https://api-hdcj.9w9.com/v2/index?type=0&gzh_number='
+const JoinURL = 'https://api-hdcj.9w9.com/v2/lotteries/'
+const ExchangeURL = 'https://api-hdcj.9w9.com/v2/limit_red_envelopes/453'
+const DailyURL = 'https://api-hdcj.9w9.com/v2/tasks/80'
 const TokenName = '活动签到'
 const TokenKey = 'wclotterynew'
 const UidKey = 'wcluid'
