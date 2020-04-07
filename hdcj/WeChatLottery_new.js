@@ -78,7 +78,7 @@ hostname = api-hdcj.9w9.com
 
 
 //填入想要自动兑换的金额，默认 50。若不需要请改为 0。
-const exchangeMoney = 50 //5, 20, 0
+const exchangeMoney = 5 //5, 20, 0
 
 const mainURL = 'https://api-hdcj.9w9.com/v1/'
 const CheckinURL = mainURL + 'sign/sign'
