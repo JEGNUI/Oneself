@@ -4,15 +4,15 @@ const global = {
     sign: { //用于设置哪些需要进行签到,哪些不处理
         baidu_tieba: true,
         iqiyi: true,
-        _52pojie: true,
+        _52pojie: false,
         netease_music: true,
-        v2ex: true,
-        china_telecom: true,
-        rrtv: true,
-        eleme: false
+        v2ex: false,
+        china_telecom: false,
+        rrtv: false,
+        eleme: true
     },
     data: {
-        china_telecom: "" //此处输入要签到的手机号码,半角双引号中间
+        china_telecom: "19128023112" //此处输入要签到的手机号码,半角双引号中间
     }
 }
 
