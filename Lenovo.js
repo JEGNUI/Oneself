@@ -10,7 +10,7 @@ $tool.get('https://dict.youdao.com/infoline/style/cardList?mode=publish&client=m
     let isAM = date.getHours() < 12 ? true : false;
     let title = 'Clock' + (isAM ? ' in' : ' out') + (isAM ? ' ☀️' : ' 🌙');
     let subtitle = '';
-    let content = 'https://i.lenovo.com.cn/memberInfo/v2/center.jhtml?sts=92570bff-ca48-48df-abad-22c5a21920ab&shareofficial=10029358901';
+    let content = '联想APP、小美果园、WPS小程序、健康码';
     if (!error) {
         if (obj && obj.length > 1) {
             let yi = obj[1];
