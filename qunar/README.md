@@ -24,10 +24,7 @@ cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 user.qunar.com
 
 [rewrite_local]
-# 189及以前版本
-^https:\/\/user.qunar.com\/webapi\/member\/signNewIndex.htm url script-response-body qunar.cookie.js
-# 190及以后版本
-^https:\/\/user.qunar.com\/webapi\/member\/signNewIndex.htm url script-request-header qunar.cookie.js
+^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm url script-request-header qunar.cookie.js
 
 [task_local]
 1 0 * * * qunar.js
