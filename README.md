@@ -73,3 +73,4 @@ note.youdao.com
 https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body WC/ydybj.js
 
 ```
+# 签到小王子 [@chavyleung](https://github.com/chavyleung/scripts/edit/master)
