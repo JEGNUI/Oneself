@@ -42,11 +42,7 @@ const mainTitle = `微博超话`
 const userFollowSTKey = `lkUserFollowSTKey`
 var notifyInfo = ``
 var accounts = !lk.getVal(userFollowSTKey) ? [
-        ["女流", "10080850b1c3b64e5545118a102f555513c8e2"],
-        ["VVebo", "100808ea6caf9419bec340a20efc3c6aa50b65"],
-        ["雀", "1008082ff97aa6fcfa3e39c3ef65fa51f0a027"],
-        ["超级小桀", "10080883321dbae3ada25e5c406fccd3aaadd5"],
-        ["动森", "100808a6c64b07163fe20e1a35fee1538280ed"]
+        ["女流", "10080850b1c3b64e5545118a102f555513c8e2"]
     ] : JSON.parse(lk.getVal(userFollowSTKey))
 
 async function all() {
