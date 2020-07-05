@@ -1,6 +1,8 @@
 /*
 微博超话签到-lowking-v1.3(原作者NavePnow，因为通知太多进行修改，同时重构了代码)
 
+⚠️使用方法：按下面的配置完之后打开超话页面，点击签到按钮获取cookie
+
 ⚠️注：获取完cookie记得把脚本禁用
 
 ************************
@@ -42,7 +44,11 @@ const mainTitle = `微博超话`
 const userFollowSTKey = `lkUserFollowSTKey`
 var notifyInfo = ``
 var accounts = !lk.getVal(userFollowSTKey) ? [
-        ["女流", "10080850b1c3b64e5545118a102f555513c8e2"]
+        ["女流", "10080850b1c3b64e5545118a102f555513c8e2"],
+        ["VVebo", "100808ea6caf9419bec340a20efc3c6aa50b65"],
+        ["雀", "1008082ff97aa6fcfa3e39c3ef65fa51f0a027"],
+        ["超级小桀", "10080883321dbae3ada25e5c406fccd3aaadd5"],
+        ["动森", "100808a6c64b07163fe20e1a35fee1538280ed"]
     ] : JSON.parse(lk.getVal(userFollowSTKey))
 
 async function all() {
@@ -64,7 +70,7 @@ all()
 
 function signIn() {
     return new Promise(async (resolve, reject) => {
-        for (var i in accounts) {
+        for (let i in accounts) {
             let name = accounts[i][0]
             let super_id = accounts[i][1]
             await superTalkSignIn(i, name, super_id)
@@ -91,9 +97,6 @@ function superTalkSignIn(index, name, super_id) {
                     if (index > 0) {
                         notifyInfo += `\n`
                     }
-                    if (index == 3) {
-                        notifyInfo += `【左滑 '查看' 以显示签到详情】\n`
-                    }
                     var obj = JSON.parse(data);
                     var code = obj.code;
                     var msg = obj.msg;
@@ -103,7 +106,7 @@ function superTalkSignIn(index, name, super_id) {
                         tipMessage = obj.data.tipMessage;
                         alert_title = obj.data.alert_title;
                         alert_subtitle = obj.data.alert_subtitle;
-                        notifyInfo += `【${name}】超话签到成功🎉${alert_title}:${alert_subtitle}`
+                        notifyInfo += `【${name}】超话签到成功🎉\n${alert_title}:${alert_subtitle}`
                     } else if (code == 382004) {
                         msg = msg.replace("(382004)", "")
                         notifyInfo += `【${name}】超话${msg} 🎉`
