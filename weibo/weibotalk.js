@@ -64,7 +64,7 @@ $ = new Env("微博超话")
 /*
  * 可自定义的参数
  */
-$.delete_cookie = ture //若需要清空cookie，请把它置为true。清空完毕后，请重新置为false.
+$.delete_cookie = true //若需要清空cookie，请把它置为true。清空完毕后，请重新置为false.
 $.msg_max_num = 30 //一个通知显示30个超话的签到情况
 $.time = 700 //【签到间隔，单位ms】，若超话过多，建议填1000ms以上。
 
