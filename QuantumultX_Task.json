@@ -1,4 +1,4 @@
-{"name":"blackmatrix7",
+{"name":"JEGNUI",
   "task":[
     {
       "config":"15 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.js, tag=中国联通, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/10010.png, enabled=true",
