@@ -17,13 +17,25 @@
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.qxrewrite,tag=什么值得买_获取Cookie"
     },
     {
-      "config":"5 0 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, tag=美团签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
+      "config":"5 0 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团APP签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/meituan.qxrewrite,tag=美团_获取Cookie"
+    },
+  {
+      "config":"6 0 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js, tag=人人视频, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/rrtv.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/rrtv.qxrewrite,tag=人人视频_获取Cookie"
+    },
+{
+      "config":"7 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/videoqq.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/videoqq.qxrewrite,tag=腾讯视频_获取Cookie"
+    },
+{
+      "config":"8 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/iQIYI.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=爱奇艺_获取Cookie"
     },
     {
       "config":"6 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜_获取Cookie"
     }
   ],
-  "description":"Jegnui"
+  "description":"签到脚本"
 }
