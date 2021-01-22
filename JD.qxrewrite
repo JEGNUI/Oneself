@@ -1,0 +1,5 @@
+# 京东每日签到
+
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+hostname = api.m.jd.com
