@@ -1,4 +1,4 @@
-# 美团
+# 美团APP签到获取Cookies
 
 ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
 
