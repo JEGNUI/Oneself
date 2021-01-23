@@ -41,7 +41,7 @@
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
     },
 {
-      "config":"7 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, tag=芒果 TV, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/mgtv.png, enabled=true",
+      "config":"7 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, tag=芒果TV, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/mgtv.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
     },
 {
