@@ -18,7 +18,11 @@
     },
     {
       "config":"5 0 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团APP签到, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/meituan.qxrewrite,tag=美团_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/meituan.qxrewrite,tag=美团APP_获取Cookie"
+    },
+   {
+      "config":"5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wmmeituan.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/meituan.qxrewrite,tag=美团APP_获取Cookie"
     },
   {
       "config":"6 0 * * *  https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js, tag=人人视频, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/rrtv.png, enabled=true",
@@ -33,7 +37,11 @@
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=爱奇艺_获取Cookie"
     },
 {
-      "config":"9 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/ele.png, enabled=true",
+      "config":"1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
     },
 {
@@ -58,6 +66,34 @@
     },
 {
       "config":"25 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/flyertea.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qqmusic.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js, tag=人人视频, img-url=https://raw.githubusercontent.com/Orz-3/task/master/rrtv.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wps.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js, tag=IT之家, img-url=https://raw.githubusercontent.com/Orz-3/task/master/ithome.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"5 0 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/task/master/weibo.png, enabled=true",
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+    },
+{
+      "config":"45 3 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js, tag=微博超话1, img-url=https://raw.githubusercontent.com/Orz-3/task/master/weibo.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
     },
     {
