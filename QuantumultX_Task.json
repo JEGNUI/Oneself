@@ -92,10 +92,6 @@
       "config":"30 7 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/task/master/weibo.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
     },
-{
-      "config":"45 3 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js, tag=微博超话1, img-url=https://raw.githubusercontent.com/Orz-3/task/master/weibo.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
-    },
     {
       "config":"6 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.js, tag=美团买菜, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai.png, enabled=true",
       "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/maicai_checkin.qxrewrite,tag=美团买菜_获取Cookie"
