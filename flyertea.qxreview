@@ -1,5 +1,0 @@
-# 飞客茶馆Cookies
-
-^https:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.* url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.jshttps://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js
-
-hostname = www.flyertea.com
