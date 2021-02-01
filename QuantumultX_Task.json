@@ -66,7 +66,7 @@
     },
 {
       "config":"25 5 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js, tag=飞客茶馆, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/flyertea.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/iQIYI.qxrewrite,tag=Cookie"
+      "addons":"https://raw.githubusercontent.com/JEGNUI/Oneself/master/flyertea.qxrewrite,tag=Cookie"
     },
 {
       "config":"9 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png, enabled=true",
